@@ -7,7 +7,7 @@ Created on Tue Apr 25 14:32:42 2017
 
 
 import ephem
-
+from math import pow
 
 coredist = {'jupiter':(6.98*pow(10,7)),'moon':(1.71*pow(10,6)),
             'saturn': (120.984*pow(10,6))/2, 'mercury': (48.79*pow(10,5))/2,
