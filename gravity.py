@@ -42,4 +42,4 @@ def pull(date, planet):
         pull = ((g*massdict['earth']*massdict[planet])/pow(coredist,2))
         return pull
     else:
-        print 'error invalid planet senpai'
+        print('error invalid planet senpai')
